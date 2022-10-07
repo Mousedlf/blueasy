@@ -15,6 +15,7 @@ a {
     background-blend-mode: saturation;
 }
 
+/* BACKGROUNDS */
 .topbarBg {
     background-color: rgba(0, 0, 0, 0.5);
     height: 10vh
@@ -23,11 +24,24 @@ a {
 .servicesBg {
     background-color: #0ECCEE;
 }
-
-.justdefaultBg{
-    background-color:#657178;
+.footerBg,
+.justdefaultBg {
+    background-color: #657178;
 }
 
+.twitterBg {
+    background-color: #4BCAFF;
+}
+
+.contactBg,
+.johndoeBg {
+    background-color: #8CB3D7;
+}
+
+
+
+/* LISTS */
+.contactInfos > li,
 .topbar > ul > li > a {
     color: white
 }
@@ -36,11 +50,34 @@ a {
     color: black;
 }
 
+.footerLinks > li,
+.contactInfos > li,
 .topbarPortfolio > ul > li,
 .topbar > ul > li {
     list-style-type: none;
 }
 
+.footerLinks > li{
+    padding: 0 20px;
+}
+
+.socials > li {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+/* COLORS */
+
+footer{
+    color:#A09F9E;
+}
+
+.border-end{
+    border-color: #A09F9E !important;
+}
+
+/* */
 .topbar {
     height: 10vh;
 }
@@ -57,11 +94,32 @@ a {
     border: 2.5px solid #0ECCEE;
 }
 
+
 .imgsPortfolio > img {
     height: 30vh;
     padding: 10px;
 }
 
+/* BUTTONS */
+
+.btnVisitme {
+    border: 3px black solid;
+    background-color: transparent;
+    padding: 5px 30px
+}
+
+.btnMessage{
+    background-color: #4BCAFF;
+    padding: 5px 75px;
+    border: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+/* FORM */
+.form-control{
+    background-color: transparent;
+}
 
 
 
