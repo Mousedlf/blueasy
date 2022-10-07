@@ -1,41 +1,67 @@
 .container-fluid,
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-header {
-    height: 100vh;
-    text-transform: uppercase;
-}
-.heroImage{
-    background-image: url("./images/HERO.jpg");
+.heroImage {
+    background-image: linear-gradient(black, black), url("./images/HERO.jpg");
     background-repeat: no-repeat;
-    index:-1;
+    height: 100vh;
+    background-blend-mode: saturation;
 }
 
-.topbar {
-    height: 10%;
-    width: 10
+.topbarBg {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh
 }
 
-.topbar>ul>li>a,
-.topbar>a {
+.servicesBg {
+    background-color: #0ECCEE;
+}
+
+.justdefaultBg{
+    background-color:#657178;
+}
+
+.topbar > ul > li > a {
     color: white
 }
 
-.topbar>ul>li {
+.topbarPortfolio > ul > li > a {
+    color: black;
+}
+
+.topbarPortfolio > ul > li,
+.topbar > ul > li {
     list-style-type: none;
+}
+
+.topbar {
+    height: 10vh;
+}
+
+.hero {
+    height: 90vh;
 }
 
 .bleu {
     color: #0ECCEE;
 }
 
-.hero {
-    height: 90%;
+.borderBleu {
+    border: 2.5px solid #0ECCEE;
 }
+
+.imgsPortfolio > img {
+    height: 30vh;
+    padding: 10px;
+}
+
+
+
+

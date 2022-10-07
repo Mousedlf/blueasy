@@ -3,36 +3,115 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Blueasy</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="container-fluid heroImage bgTopbar">
-    <header class="container" >
-        <div class="bg-black">
-            <div class="topbar d-flex justify-content-between  align-items-center">
-                <a href="">Blu<span class="bleu">e</span>asy</a>
-                <ul class="d-flex">
-                    <li class="px-2"><a href="">Home</a></li>
-                    <li class="px-2"><a href="">Services</a></li>
-                    <li class="px-2"><a href="">Features</a></li>
-                    <li class="px-2"><a href="">Portfolio</a></li>
-                    <li class="px-2"><a href="">Contact</a></li>
-                </ul>
+<!-- Nav & Hero -->
+<div class="container-fluid heroImage">
+    <div class="text-uppercase topbarBg">
+        <div class="container topbar d-flex justify-content-between align-items-center ">
+            <a class="fs-5 text-white " href="">Blu<span class="bleu">e</span>asy</a>
+            <ul class="d-flex mb-0 ">
+                <li class="px-2"><a class="borderBleu px-2 py-1" href="">Home</a></li>
+                <li class="px-2"><a href="">Services</a></li>
+                <li class="px-2"><a href="">Features</a></li>
+                <li class="px-2"><a href="">Portfolio</a></li>
+                <li class="px-2"><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container hero d-flex justify-content-center align-items-center fs-2 ">
+            <p class="text-white text-center w-75 bg-black bg-opacity-25">"I'm looking for the unexpected. I'm looking
+                for things I've never seen before."</p>
+        </div>
+    </div>
+</div>
+<!-- SERVICES -->
+<section class="servicesBg text-white">
+    <div class="container py-5">
+        <h2 class="text-uppercase  pb-4"><span class="text-decoration-underline">Ser</span>vices</h2>
+        <div class="row ">
+            <div class="col-sm-6 col-md-3 px-3">
+                <img alt="icone café" class="mt-4 mt-md-0" src="./images/coffee.png">
+                <h3 class="text-uppercase fs-4 pt-2 pb-2">Coffee</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iste necessitatibus pariatur
+                    reiciendis. Amet culpa doloremque fugit itaque labore odio provident quaerat, rem sapiente
+                    velit?</p>
+            </div>
+            <div class="col-sm-6 col-md-3 px-3">
+                <img alt="" class="mt-4 mt-md-0" src="./images/instant.png">
+                <h3 class="text-uppercase fs-4 pt-2 pb-2">Instant</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iste necessitatibus pariatur
+                    reiciendis. Amet culpa doloremque fugit itaque labore odio provident quaerat, rem sapiente
+                    velit?</p>
+            </div>
+            <div class="col-sm-6 col-md-3 px-3">
+                <img alt="" class="mt-4 mt-md-0" src="./images/dslr.png">
+                <h3 class="text-uppercase fs-4 pt-2 pb-2">Serious</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iste necessitatibus pariatur
+                    reiciendis. Amet culpa doloremque fugit itaque labore odio provident quaerat, rem sapiente
+                    velit?</p>
+            </div>
+            <div class="col-sm-6 col-md-3 px-3">
+                <img alt="" class="mt-4 mt-md-0" src="./images/frame.png">
+                <h3 class="text-uppercase fs-4 pt-2 pb-2">Frame</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iste necessitatibus pariatur
+                    reiciendis. Amet culpa doloremque fugit itaque labore odio provident quaerat, rem sapiente
+                    velit?</p>
             </div>
         </div>
 
-        <div class="hero d-flex justify-content-center align-items-center fs-2 ">
-            <p class="text-white text-center w-75 bg-black bg-opacity-25">"I'm looking for the unexpected. I'm looking for things I've never seen before."</p>
-        </div>
-    </header>
-
 
     </div>
+
+</section>
+<!-- PORTFOLIO -->
+<section class="container text-uppercase py-5">
+    <div class="topbarPortfolio d-flex justify-content-between align-items-center pb-5 ">
+        <h2 class=""><span class="text-decoration-underline">Por</span>tfolio</h2>
+        <ul class="d-flex mb-0">
+            <li class="px-2 me-md-5"><a class="borderBleu px-2 py-1" href="">All</a></li>
+            <li class="px-2"><a href="">Panorama</a></li>
+            <li class="px-2"><a href="">Portraits</a></li>
+            <li class="px-2"><a href="">Macros</a></li>
+            <li class="px-2"><a href="">Journal</a></li>
+        </ul>
+    </div>
+    <div class="row imgsPortfolio">
+        <img alt="" class="col-6 col-md-3" src="./images/portfolio/1.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/2.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/3.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/4.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/5.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/6.png">
+        <img alt="" class="col-6 col-md-3" src="images/portfolio/7.png">
+        <img alt="" class="col-6 col-md-3" src="/images/portfolio/8.png">
+    </div>
+</section>
+<!-- JUST DEFAULT SECTION -->
+<div class="container-fluid justdefaultBg">
+    <section class="container py-5">
+        <div class="row">
+            <div class="text-white col-12 col-md-6">
+                <h2 class="text-uppercase"><span class=" text-decoration-underline">Just</span> default section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur dolores iure laudantium
+                    ratione sed. Aspernatur assumenda commodi, consectetur distinctio dolor illum, ipsum iure nemo odio
+                    omnis praesentium quos, unde.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequatur deserunt eaque eum eveniet ex
+                    itaque, maxime molestias odit placeat, quam sit tempore ut voluptatem voluptatibus. Ad autem dolores
+                    error.</p>
+            </div>
+            <video class="col-12 col-md-6" controls type="video/mp4" src="https://www.youtube.com/watch?v=zpOULjyy-n8"></video>
+        </div>
+    </section>
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"></script>
 </body>
 
